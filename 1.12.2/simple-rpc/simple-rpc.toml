@@ -1,0 +1,271 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 762726289341677668
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 16
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "MC Diaries + Revisited is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[init.buttons]]
+		label = "Play Minecraft Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[init.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is currently lazy"
+	#The second line of text under the app name
+	state = "Chilling in the menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[main_menu.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[main_menu.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[server_list.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[server_list.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[realms_list.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[realms_list.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[join_game.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[join_game.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing singleplayer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[single_player.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[single_player.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[multi_player.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[multi_player.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+
+	[[realms.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[realms.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing MC Diaries + Revisited "
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/DlIXTjP.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft Diaries Revisited, for Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[generic.buttons]]
+		label = "Play MC Diaries Revisited"
+		url = "https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revisited"
+
+	[[generic.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+

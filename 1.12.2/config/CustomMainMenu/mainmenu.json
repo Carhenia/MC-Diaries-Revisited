@@ -1,0 +1,269 @@
+{  
+    "images":{  
+        "scroll":{  
+            "image":"diaries:textures/scroll.png",
+            "posX":-291.5,
+            "posY":0,
+            "width":583,
+            "height":490,
+            "alignment":"top_center"
+        },
+        "logo":{  
+            "image":"diaries:textures/logo.png",
+            "posX":-173.5,
+            "posY":85,
+            "width":347,
+            "height":165.5,
+            "alignment":"top_center"
+        },
+        "singleplayer":{  
+            "image":"diaries:textures/button1.png",
+            "posX":-318,
+            "posY":245,
+            "width":190,
+            "height":55,
+            "alignment":"top_center"
+        },
+        "multiplayer":{  
+            "image":"diaries:textures/button1.png",
+            "posX":-320,
+            "posY":280,
+            "width":190,
+            "height":55,
+            "alignment":"top_center"
+        },
+        "options":{  
+            "image":"diaries:textures/button1.png",
+            "posX":-322,
+            "posY":315,
+            "width":190,
+            "height":55,
+            "alignment":"top_center"
+        },
+        "quit":{  
+            "image":"diaries:textures/button2.png",
+            "posX":-324,
+            "posY":350,
+            "width":199.5,
+            "height":78,
+            "alignment":"top_center"
+        }
+    },
+    "buttons":{  
+        "singleplayer":{  
+            "text":"menu.singleplayer",
+            "posX":-310,
+            "posY":257,
+            "width":150,
+            "height":20,
+            "imageWidth":150,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":255,
+            "texture":"diaries:textures/tranparent.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        "multiplayer":{  
+            "text":"menu.multiplayer",
+            "posX":-311,
+            "posY":292,
+            "width":150,
+            "height":20,
+            "imageWidth":150,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":255,
+            "texture":"diaries:textures/tranparent.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "options":{  
+            "text":"menu.options",
+            "posX":-313,
+            "posY":327,
+            "width":150,
+            "height":20,
+            "imageWidth":150,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":255,
+            "texture":"diaries:textures/tranparent.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "quit":{  
+            "text":"menu.quit",
+            "posX":-314,
+            "posY":362,
+            "width":150,
+            "height":20,
+            "imageWidth":150,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "texture":"diaries:textures/tranparent.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        "website":{  
+            "text":"",
+            "posX":0,
+            "posY":285,
+            "width":204,
+            "height":26,
+            "imageWidth":408,
+            "imageHeight":52,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "texture":"diaries:textures/website.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://nebulanetwork.net"
+            }
+        },
+        "discord":{  
+            "text":"",
+            "posX":5,
+            "posY":315,
+            "width":93.5,
+            "height":34,
+            "imageWidth":187,
+            "imageHeight":68,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "texture":"diaries:textures/discord.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/BZHsftqMCj"
+            }
+        },
+        "donate":{  
+            "text":"",
+            "posX":110,
+            "posY":320,
+            "width":72.5,
+            "height":37,
+            "imageWidth":145,
+            "imageHeight":74,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "texture":"diaries:textures/donate.png",
+            "alignment":"top_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://nebulanetwork.net"
+            }
+        },
+        "mods":
+        {
+            "text" : "Mods: #modsloaded#/#modsactive#",
+            "posX" : -90,
+            "posY" : -50,
+            "width" : 70,
+            "height" : 10,
+            "alignment":"bottom_right",
+            "hoverTextColor":13938487,
+            "texture":"diaries:textures/tranparent.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "language":
+        {
+            "text" : "",
+            "posX" : 5,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "alignment":"bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "refresh":{  
+            "text":"",
+            "posX":20,
+            "posY":-20,
+            "width":0,
+            "height":0,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "alignment":"bottom_center",
+            "hoverText" : "Refresh",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    "texts":{  
+        "forge":{  
+            "text":"Forge #forgeversion# for Minecraft #mcversion#",
+            "posX":-200,
+            "posY":-32,
+            "color":13938487,
+            "alignment":"bottom_right"
+        },"mojang":{  
+            "text":"Copyright Mojang AB. Do not distribute!",
+            "posX":-200,
+            "posY":-20,
+            "color":13938487,
+            "alignment":"bottom_right"
+        },
+        "example":{  
+            "text":"Minecraft Diaries+ version 2.2.0",
+            "posX":30,
+            "posY":-20,
+            "color":13938487,
+            "alignment":"bottom_left"
+        }
+    },
+    "other":{  
+        "splash-text":{  
+            "posX":140,
+            "posY":230,
+            "color":13055,
+            "alignment":"top_center"
+        },
+       "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                                "diaries:textures/background1.png",
+                                "diaries:textures/background2.png",
+                                "diaries:textures/background3.png",
+                                "diaries:textures/background4.png"                           ],
+                    "displayDuration" : 100,
+                    "fadeDuration" : 40,
+                    "shuffle" : true
+            }
+        }
+    }
+}
