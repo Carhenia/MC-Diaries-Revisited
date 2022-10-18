@@ -11,5 +11,9 @@ CurseForge: https://www.curseforge.com/minecraft/modpacks/aphmau-mc-diaries-revi
 Discord: https://discord.gg/9ZxeWesrzz <br />
 Website: https://nebulanetwork.net/ <br />
 Wiki: https://wiki.nebulanetwork.net/ <br />
+# Current Issues
+Client Crash "Caught Exception from Ancient Warfare Structures"<br />
+Out of memory Error. Increase your memory or remove the mod manually<br />
+<br />
 # Terms and conditions
 All files are modifications of config files provided by the original mods. All rights belong to the respective mod authors. 
